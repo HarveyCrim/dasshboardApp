@@ -1,0 +1,48 @@
+.signedin-nav{
+    display:flex;
+    align-items: center;
+    padding:0 10px;
+    background-color: aqua;
+    position : relative;
+}
+.navbar-list1 {
+    display:flex;
+    gap:20px;
+}
+.navbar-list1 li {
+    list-style: none;
+}
+.logout-span{
+    position:absolute;
+    margin:auto;
+    height:fit-content;
+    top:0;
+    bottom:0;
+    right:10px;
+    cursor:pointer;
+}
+.logout-span a{
+    text-decoration: none;
+}
+.remove-underline {
+    text-decoration: none;
+}
+.signup-nav{
+    background-color: aqua;
+    display:Flex;
+    padding:0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-list2{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.navbar-list2 li {
+    list-style: none;
+}
+#logo-nav{
+    height:30px;
+    width:30px;
+}
